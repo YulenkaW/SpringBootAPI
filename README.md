@@ -44,5 +44,7 @@ shell:
 java -jar APITwitter.jar
 Make sure Java is installed on the laptop. You can check by running java -version. If Java is not installed, you will need to install it.
 
+Here is a dependencies list: 
+![image](https://github.com/YulenkaW/SpringBootAPI/assets/83892913/99a3ad10-db99-49dd-920c-bcbd5f89de1c)
 
 
