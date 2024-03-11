@@ -19,16 +19,23 @@ Get detailed profile (location, description, followers_count, friends_count) inf
 Here is an example testing API in Postman
 I![image](https://github.com/YulenkaW/SpringBootAPI/assets/83892913/48ccd77d-b390-4839-868c-c243d1599e79)
 
+
+It was built with SpringBoot  framework. 
+You can easily run it with installed SpringBoot by File-Open project-path to the project
+
 To compile it:
 I would strongly recommend to instal Maven or Gradle: 
 Navigate to the project directory and run one of the following commands:
 Maven:
 shell:
 mvn clean package
+java -jar target/APITwitter-0.0.1-SNAPSHOT.jar
 
 Gradle:
 shell
 ./gradlew build
+java -jar build/libs/APITwitter-0.0.1-SNAPSHOT.jar
+
 This will create an executable JAR file in the target (Maven) or build/libs (Gradle) directory.
 
 On the Windows laptop: Open a shell (Command Prompt or PowerShell), navigate to the directory containing the JAR file, and run:
